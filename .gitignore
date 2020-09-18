@@ -1,0 +1,13 @@
+# temporal files
+**__pycache__
+**.vscode
+
+# virtual environment
+**venvsql
+
+# alembic
+**migrations
+*.ini
+
+# db
+*.db

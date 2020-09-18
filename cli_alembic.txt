@@ -1,0 +1,19 @@
+## alembic commands
+
+# create alembic folder
+alembic init [name_folder]
+
+# autogenerate revision
+alembic revision --autogenerate -m "name revision"
+
+# view actual alembic version
+alembic heads
+
+# upgrade changes to last revision
+alembic upgrade head
+
+# Partial Revision Identifiers
+alembic upgrade ae1
+
+# downgrade changes to 
+alembic downgrade base
